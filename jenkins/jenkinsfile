@@ -17,7 +17,7 @@ stages
         echo "checkingout stage"
         echo "${params.browser}"
         deleteDir()
-        git branch: 'main', credentialsId: 'c5aef89d-c4bf-4c43-8aa6-7def9b90e32c', url: 'https://github.com/sunilpatro1985/SeleniumJavaFramework.git'
+        git branch: 'main', credentialsId: '3314e5e6-b214-41c7-aa6e-b9dcd1f0b585', url: 'https://github.com/venkateshash/SeleniumJavaFramework.git'
         }
     }
     stage('Test'){
